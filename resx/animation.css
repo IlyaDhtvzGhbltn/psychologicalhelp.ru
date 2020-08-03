@@ -1,0 +1,107 @@
+.animationRight{
+	animation: splashFromRightParagraf 1s ease forwards;
+}
+
+.animationRightExpand{
+	animation: splashFromRightExpandParagraf 1s ease forwards;
+}
+
+.animationNullMarg{
+	animation: splashMarginNull 1s ease forwards;
+}
+
+.animationAbout{
+	animation: splashAboutMe 1s ease forwards;
+}
+
+.animationJoinButton{
+	animation: receptionButton 1s ease forwards;
+}
+
+#first-left-photo,#second-left-photo{
+	opacity: 0;
+	margin-top: -30px;
+}
+
+#top-about-par{
+	opacity: 0;
+	margin: auto 0px auto 95px;
+}
+
+#paraf-width-exp{
+	opacity: 0;
+	margin: 309px 0px 0px 342px;
+}
+
+#right-crycis-cont{
+	opacity: 0;
+	margin: auto 0px auto 95px;
+}
+
+#third-left-photo{
+	opacity: 0;
+}
+
+#child-container-img {
+	margin: auto 0 auto 195px;
+	opacity: 0;
+}
+
+
+#personal-problem-img{
+	margin: 0px 0 0 -50px;
+	opacity: 0;
+}
+
+#personal-problem-desc{
+	margin: auto 0px auto 100px;
+	opacity: 0;
+}
+
+
+#service-align-container{
+	margin: -90px 0 0 260px;
+	opacity: 0;
+}
+
+#about-img{
+	margin-left: -100px;
+	opacity: 0;
+}
+
+@keyframes splashMarginNull{
+	to {
+	  opacity: 1;
+	  margin: unset;
+	}
+}
+
+@keyframes splashFromRightParagraf {
+  to 
+  {
+	  opacity: 1;
+	  margin: 0px 0px 0px 35px;
+  }
+}
+
+@keyframes splashAboutMe {
+  to 
+  {
+	  opacity: 1;
+	  margin: -90px 0 0 100px;
+  }
+}
+
+@keyframes splashFromRightExpandParagraf{
+	to {
+		opacity: 1;
+		margin: 446px 0px 0px 290px;
+	}
+}
+
+@keyframes receptionButton{
+	to {
+		opacity: 1;
+		z-index:999;
+	}
+}
